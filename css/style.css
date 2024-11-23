@@ -1,0 +1,45 @@
+:root {
+  --clr-pink: hsl(322, 100%, 66%);
+  --clr-very-pale-cyan: hsl(193, 100%, 96%);
+  --clr-very-dark-cyan: hsl(192, 100%, 9%);
+  --clr-grayish-blue: hsl(208, 11%, 55%);
+
+  --ff-poppins: 'Poppins', sans-serif; /* Headings; weights: 600 */
+  --ff-open-sans: 'Open Sans', sans-serif; /* Body, Call-to-actions; weights: 400, 700 */
+
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+optgroup,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 1.5;
+}
