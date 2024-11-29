@@ -226,6 +226,12 @@ ul {
   gap: 15px;
 }
 
+.footer-links ul div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .footer-links a {
   color: white;
 }
@@ -263,4 +269,171 @@ ul {
 
 .footer-social small {
   font-size: 11px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    background: var(--clr-very-pale-cyan) url(../images/bg-hero-desktop.svg)
+      no-repeat;
+    background-size: contain;
+  }
+
+  .header-top {
+    padding: 40px 80px 20px;
+  }
+
+  .header-top img {
+    width: 180px;
+  }
+
+  .header-top-link {
+    font-size: 14px;
+    padding: 15px 60px;
+  }
+
+  .header-bottom {
+    display: flex;
+    gap: 80px;
+    padding: 40px 80px;
+  }
+
+  .header-bottom h1 {
+    font-size: 40px;
+  }
+
+  .header-bottom div {
+    flex: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-bottom img {
+    flex: 55%;
+  }
+
+  .header-bottom h1 {
+    text-align: left;
+  }
+
+  .header-bottom p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .header-bottom-link {
+    font-size: 14px;
+    width: 55%;
+    align-self: flex-start;
+    padding: 16px;
+    margin-bottom: 0;
+  }
+
+  .main {
+    padding: 150px 100px;
+    gap: 45px;
+  }
+
+  .main-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding: 80px 30px 80px 120px;
+    text-align: left;
+    gap: 50px;
+  }
+
+  .main-card:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .main-card h2 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .main-card p {
+    font-size: 18px;
+  }
+
+  .main-card div {
+    max-width: 510px;
+  }
+
+  .main-card img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .main-ready {
+    padding: 80px 10px;
+    width: 60%;
+  }
+
+  .main-ready h3 {
+    font-size: 30px;
+  }
+
+  .main-ready-link {
+    font-size: 18px;
+    padding: 25px;
+    border-radius: 50px;
+  }
+
+  .footer {
+    padding: 200px 80px 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -125px;
+  }
+
+  .footer-contacts {
+    max-width: 30%;
+  }
+
+  .footer-contacts-logo {
+    width: 240px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-links ul {
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .social-links {
+    margin-top: 60px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .main-card {
+    justify-content: space-evenly;
+  }
+
+  .header-top {
+    padding: 40px 200px 20px;
+  }
+
+  .header-bottom {
+    padding: 40px 200px;
+  }
+
+  .main {
+    padding: 150px 250px;
+  }
 }
