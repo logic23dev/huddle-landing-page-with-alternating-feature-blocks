@@ -293,16 +293,17 @@ ul {
 
   .header-bottom {
     display: flex;
-    gap: 80px;
+    justify-content: space-between;
     padding: 40px 80px;
   }
 
   .header-bottom h1 {
     font-size: 40px;
+    text-align: left;
   }
 
   .header-bottom div {
-    flex: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,11 +311,7 @@ ul {
   }
 
   .header-bottom img {
-    flex: 55%;
-  }
-
-  .header-bottom h1 {
-    text-align: left;
+    width: 55%;
   }
 
   .header-bottom p {
