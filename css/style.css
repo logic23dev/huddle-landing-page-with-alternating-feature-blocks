@@ -41,7 +41,7 @@ select {
 body {
   min-height: 100vh;
   font-family: var(--ff-open-sans);
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.5;
 }
 
@@ -56,11 +56,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 20px;
+  padding: 1.875rem 1.25rem;
 }
 
 .header-top img {
-  width: 100px;
+  width: 6.25rem;
   height: auto;
 }
 
@@ -71,11 +71,11 @@ a {
 .header-top-link {
   background-color: white;
   color: var(--clr-very-dark-cyan);
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: var(--fw-700);
-  padding: 5px 20px;
-  border-radius: 30px;
-  box-shadow: 0px 0px 19px -9px hsla(208, 11%, 55%, 0.5);
+  padding: 0.3125rem 1.25rem;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1.1875rem -0.5625rem hsla(208, 11%, 55%, 0.5);
   transition: 0.2s;
 }
 
@@ -85,31 +85,31 @@ a {
 
 .header-bottom {
   text-align: center;
-  padding: 35px;
+  padding: 2.1875rem;
 }
 
 .header-bottom h1 {
   font-family: var(--ff-poppins);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: var(--fw-600);
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .header-bottom p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .header-bottom-link {
   display: inline-block;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: var(--fw-600);
   color: white;
   background-color: var(--clr-pink);
-  padding: 12px;
+  padding: 0.75rem;
   width: 80%;
-  border-radius: 30px;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  border-radius: 1.875rem;
+  margin-top: 1.875rem;
+  margin-bottom: 3.75rem;
   transition: 0.2s;
 }
 
@@ -123,58 +123,58 @@ a {
 }
 
 .main-cards-section {
-  padding: 50px 20px 100px;
+  padding: 3.125rem 1.25rem 6.25rem;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .main-card {
-  padding: 40px;
+  padding: 2.5rem;
   text-align: center;
-  border-radius: 15px;
-  box-shadow: 0px 0px 19px -9px hsla(208, 11%, 55%, 0.5);
+  border-radius: 0.9375rem;
+  box-shadow: 0 0 1.1875rem -0.5625rem hsla(208, 11%, 55%, 0.5);
 }
 
 .main-card h2 {
   font-family: var(--ff-poppins);
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--clr-very-dark-cyan);
-  margin-top: 40px;
-  margin-bottom: 15px;
+  margin-top: 2.5rem;
+  margin-bottom: 0.9375rem;
 }
 
 .main-card p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--clr-grayish-blue);
 }
 
 .main-ready {
-  padding: 45px 10px;
-  border-radius: 15px;
+  padding: 2.8125rem 0.625rem;
+  border-radius: 0.9375rem;
   background-color: white;
   text-align: center;
-  box-shadow: 0px 0px 19px -9px hsla(208, 11%, 55%, 0.5);
+  box-shadow: 0 0 1.1875rem -0.5625rem hsla(208, 11%, 55%, 0.5);
   position: relative;
   width: 95%;
   margin: auto;
 }
 
 .main-ready h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--clr-very-dark-cyan);
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .main-ready-link {
   display: inline-block;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: var(--fw-600);
   color: white;
   background-color: var(--clr-pink);
-  padding: 12px;
+  padding: 0.75rem;
   width: 50%;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   transition: 0.2s;
 }
 
@@ -185,16 +185,16 @@ a {
 .footer {
   background-color: var(--clr-very-dark-cyan);
   color: white;
-  padding: 140px 20px 50px;
+  padding: 8.75rem 1.25rem 3.125rem;
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin-top: -65px;
+  gap: 3.125rem;
+  margin-top: -4.0625rem;
 }
 
 .footer-contacts-logo {
-  margin-bottom: 30px;
-  width: 170px;
+  margin-bottom: 1.875rem;
+  width: 10.625rem;
   filter: brightness(0) invert(1);
 }
 
@@ -205,31 +205,31 @@ ul {
 .footer-contacts ul {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .footer-contacts li {
   display: flex;
   align-items: center;
-  gap: 20px;
-  font-size: 16px;
+  gap: 1.25rem;
+  font-size: 1rem;
 }
 
 .footer-contacts ul li:nth-child(1) img {
   align-self: flex-start;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .footer-links ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .footer-links a {
@@ -245,33 +245,33 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .social-links {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .social-links a {
   color: white;
-  font-size: 14px;
-  border: 1px solid white;
-  padding: 5px;
+  font-size: 0.875rem;
+  border: 0.0625rem solid white;
+  padding: 0.3125rem;
   border-radius: 50%;
   transition: 0.2s;
 }
 
 .social-links a:hover {
   color: var(--clr-pink);
-  border: 1px solid var(--clr-pink);
+  border: 0.0625rem solid var(--clr-pink);
 }
 
 .footer-social small {
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 75rem) {
   .header {
     background: var(--clr-very-pale-cyan) url(../images/bg-hero-desktop.svg)
       no-repeat;
@@ -279,26 +279,26 @@ ul {
   }
 
   .header-top {
-    padding: 40px 80px 20px;
+    padding: 2.5rem 5rem 1.25rem;
   }
 
   .header-top img {
-    width: 180px;
+    width: 11.25rem;
   }
 
   .header-top-link {
-    font-size: 14px;
-    padding: 15px 60px;
+    font-size: 0.875rem;
+    padding: 0.9375rem 3.75rem;
   }
 
   .header-bottom {
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 2.5rem 5rem;
   }
 
   .header-bottom h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: left;
   }
 
@@ -315,31 +315,31 @@ ul {
   }
 
   .header-bottom p {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: left;
   }
 
   .header-bottom-link {
-    font-size: 14px;
+    font-size: 0.875rem;
     width: 55%;
     align-self: flex-start;
-    padding: 16px;
+    padding: 1rem;
     margin-bottom: 0;
   }
 
   .main-cards-section {
-    padding: 180px 100px;
-    gap: 65px;
+    padding: 11.25rem 6.25rem;
+    gap: 4.0625rem;
   }
 
   .main-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 430px;
-    padding: 100px 30px 100px 120px;
+    height: 26.875rem;
+    padding: 6.25rem 1.875rem 6.25rem 7.5rem;
     text-align: left;
-    gap: 50px;
+    gap: 3.125rem;
   }
 
   .main-card:nth-child(odd) {
@@ -347,43 +347,43 @@ ul {
   }
 
   .main-card h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-top: 0;
   }
 
   .main-card p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .main-card div {
-    max-width: 510px;
+    max-width: 31.875rem;
   }
 
   .main-card img {
-    max-width: 400px;
+    max-width: 25rem;
     height: auto;
   }
 
   .main-ready {
-    padding: 80px 10px;
+    padding: 5rem 0.625rem;
     width: 60%;
   }
 
   .main-ready h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .main-ready-link {
-    font-size: 18px;
-    padding: 25px;
-    border-radius: 50px;
+    font-size: 1.125rem;
+    padding: 1.5625rem;
+    border-radius: 3.125rem;
   }
 
   .footer {
-    padding: 200px 80px 100px;
+    padding: 12.5rem 5rem 6.25rem;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: -125px;
+    margin-top: -7.8125rem;
   }
 
   .footer-contacts {
@@ -391,7 +391,7 @@ ul {
   }
 
   .footer-contacts-logo {
-    width: 240px;
+    width: 15rem;
   }
 
   .footer-links {
@@ -399,7 +399,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 6.25rem;
   }
 
   .footer-social {
@@ -409,22 +409,22 @@ ul {
   }
 
   .social-links {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     align-self: flex-start;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 100rem) {
   .header-top {
-    padding: 40px 200px 20px;
+    padding: 2.5rem 12.5rem 1.25rem;
   }
 
   .header-bottom {
-    padding: 40px 200px;
+    padding: 2.5rem 12.5rem;
   }
 
   .main-cards-section {
-    padding: 150px 250px;
+    padding: 9.375rem 15.625rem;
   }
 
   .main-card {
