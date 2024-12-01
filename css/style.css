@@ -328,16 +328,16 @@ ul {
   }
 
   .main-cards-section {
-    padding: 150px 100px;
-    gap: 45px;
+    padding: 180px 100px;
+    gap: 65px;
   }
 
   .main-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
-    padding: 80px 30px 80px 120px;
+    height: 430px;
+    padding: 100px 30px 100px 120px;
     text-align: left;
     gap: 50px;
   }
